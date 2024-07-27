@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getMenu()">
+  <div class="container">
+    <header class="header">
+      <div class="search-bar">
+        <input type="text" placeholder="Search food items">
+      </div>
+      <div class="btn">
+        <button class="btns signup-btn">SignUp</button>
+        <button class="btns login-btn">Login</button>
+      </div>
+      <div class="header-logo">
+        <img width="70px" src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b~A6HV6~SRJIgnOn1h8jwfnbkqnWrgT6ds85azdrMPk8eka0xl7hN8o~wFkZjwmLGkn9mQ-N5Fmr6BqFOIQuVIhExAT-cW061ORHRgzBFGK9U~zfDI7-v8gfnlBcrfeCe7WJB~2ibm7DMyU8gW4d0P8cW2-WR2k11ij7YBQ59ef3iDTxFJLwlcXoL-KfyyVq14G08uInYv1tvTQeNt1e~CKdwAEBxISkMQW0p4YDN6nSrUdo-oI-hjVJ1nfIuxrYwF6wl19ivZyZRb7qHJySuc~JHMCl2qEU92cn8zy-LM~bFK9RkN1WRkP1X6hds8zxOSECSde0jqpVgx1HGAVEyg__" alt="logo">
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="logo">
+        <img width="150px" src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b~A6HV6~SRJIgnOn1h8jwfnbkqnWrgT6ds85azdrMPk8eka0xl7hN8o~wFkZjwmLGkn9mQ-N5Fmr6BqFOIQuVIhExAT-cW061ORHRgzBFGK9U~zfDI7-v8gfnlBcrfeCe7WJB~2ibm7DMyU8gW4d0P8cW2-WR2k11ij7YBQ59ef3iDTxFJLwlcXoL-KfyyVq14G08uInYv1tvTQeNt1e~CKdwAEBxISkMQW0p4YDN6nSrUdo-oI-hjVJ1nfIuxrYwF6wl19ivZyZRb7qHJySuc~JHMCl2qEU92cn8zy-LM~bFK9RkN1WRkP1X6hds8zxOSECSde0jqpVgx1HGAVEyg__" alt="logo">
+        <div class="logo-text">
+          <p class="head-text">Your Restaurant Menu</p>
+          <p class="sub-text">Your Slogan</p>
+        </div>
+      </div>
+      <hr>
+      <div class="nav-links">
+        <p class="link-header">Quick Links</p>
+        <ol>
+          <li><a href="index.html">1. Home</a></li>
+          <li><a href="menuPage.html">2. Menu</a></li>
+          <li><a href="#orders">3. Your orders</a></li>
+          <li><a href="#wallet">4. Wallet</a></li>
+          <li><a href="#profile">5. Profile</a></li>
+          <li><a href="#logout">6. Logout</a></li>
+        </ol>
+      </div>
+      <hr>
+      <div class="nav-links">
+        <p class="link-header">More about us</p>
+        <ol>
+          <li><a href="#ourblog">1. Our blog</a></li>
+          <li><a href="#upcomingdishes">2. Upcoming dishes</a></li>
+          <li><a href="#ourstory">3. Our story</a></li>
+          <li><a href="#socialLinks">4. Social Media links</a></li>
+        </ol>
+      </div>
+    </aside>
+    
+    <main class="main-content">
+      <h2>Menu</h2>
+      <div id="menu" class="cards-container"></div>
+    </main>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

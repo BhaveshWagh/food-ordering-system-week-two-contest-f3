@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 200px;
+  background-color: #121315;
+  color: white;
+  /* text-align: center; */
+  padding: 1rem;
+}
+.btns {
+  padding: 15px 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-inline: 4px;
+}
+.btns:hover {
+  cursor: pointer;
+}
+.search-bar > input {
+  color: white;
+  width: 600px;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  text-align: center;
+}
+.head-text,.bold {
+  font-weight: bold;
+}
+.sub-text {
+  padding: 0.4rem;
+  color: red;
+}
+hr {
+  margin-top: 10px;
+  width: 200px;
+  border-color: #121315;
+}
+.link-header {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  background-color: #0c0e10;
+  color: white;
+  width: 200px;
+  height: 100vh;
+  /* height: calc(100vh - 60px); */
+  position: fixed;
+  /* top: 60px; */
+  left: 0;
+}
+.nav-links > ol > li {
+  padding: 3px;
+}
+
+.nav-links > ol > li > a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+.banner-container {
+  margin-left: 200px;
+  padding: 1rem;
+  background-color: #121315;
+  flex-grow: 1;
+}
+
+.banner-container img {
+  border-radius: 15px;
+  /* object-fit: cover; */
+}
+
+.main-content {
+
+  color: white;
+  background-color: #121315;
+  margin-left: 200px;
+  padding: 1rem;
+  flex-grow: 1;
+  
+}
+
+.card{
+    margin-top: 30px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card>.card-img>img{
+  width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card-text{
+    /* margin: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-text >.left > .line-space{
+    padding: 5px;    
+}
+
+.add-btn{
+    border: none;
+    color: white;
+    padding:6px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #363a43;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.note{
+  font-size: 12px;
+  color: red;
+}
